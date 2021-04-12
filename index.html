@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <h3 class="title">Minesweeper</h3>
+    <div class="setting">
+        <h6>setting</h6>
+        <input type="text" placeholder="size" value="10" data-size>
+        <input type="text" placeholder="mineCount" value="10" data-mineCount>
+        <button data-update>update</button>
+    </div>
+    <div class="subtext">
+        Mines left: <span data-mine-count></span>
+    </div>
+    <div class="board"></div>
+</body>
+</html>
